@@ -87,14 +87,14 @@ h1 span{
 
 @keyframes surgindo {
 from{opacity: 0; 
-    background-image: url(../imgs/imgs_cadastro/Deid.gif);
+    background: url(../assets/imgcadastro/imgs_cadastro/Deid.gif);
     background-size:contain;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 to {
     opacity: 10;
-    background-image: url(../imgs/imgs_cadastro/fundo\ letra.jpg);
+    background-image:url(../assets/imgcadastro/imgs_cadastro/fundo\ letra.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
