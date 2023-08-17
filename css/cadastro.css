@@ -51,13 +51,15 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;    
+    align-items: center;  
+    color:transparent;  
 }
 h1 span{
     font-size: 28%;
-    background-image: url(../imgs/imgs_cadastro/fundo\ letra.jpg);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: url(../assets/imgcadastro/imgs_cadastro/fundo\ letra.jpg);
+    -webkit-background-clip:text;
+    color:transparent;
+    
    
 }
 
