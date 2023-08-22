@@ -108,11 +108,6 @@ input {
   justify-content: center;
 }
 
-  /* background: linear-gradient(
-    hsl(0 0% 0% / 0),
-    hsl(20 0% 0% / 0.3) 20%,
-    hsl(0 0% 0% / 1),
-  ); */
 
 .card-title {
   color: yellow;
@@ -182,4 +177,7 @@ a {
   text-align: center;
   color: #FFE181;
 }
+
+
+
 

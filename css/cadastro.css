@@ -1,4 +1,5 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+}
 
 body{
     margin: 0;
@@ -55,11 +56,11 @@ h1{
     color:transparent;  
 }
 h1 span{
-    font-size: 28%;
+    font-size: 3em;
     background: url(../assets/imgcadastro/imgs_cadastro/fundo\ letra.jpg);
     -webkit-background-clip:text;
     color:transparent;
-    
+
    
 }
 
@@ -83,7 +84,8 @@ h1 span{
 }
 .surgindo{
     animation: surgindo 6s linear;
-    font-size: 10vw;
+    font-size: 2.1em;
+    font-weight: 900;
 
 }
 
@@ -102,18 +104,19 @@ to {
 }
 }
 ::placeholder{
-    color: #c2b7151a;
+    color: rgba(194, 183, 21, 0.24);
+    text-align: left;
 }
 .input-{
     color: #c2b7153a; 
     width: 80%;
-    height: 9%;
+    height: 2%;
     text-align: center;
     margin-left: 50px;
     margin-right: 60px;
     margin-top: 15px;
     border-radius: 30px; 
-    padding: 5px;    
+    padding: 8px;    
     background-color: #232323ba;
     border: solid 0.1px rgba(0, 0, 0, 0.326);
     text-decoration: none;
@@ -122,25 +125,68 @@ to {
     outline: none;
 }
 .input-:focus{
-    transform: scale(1.03);
+    transform: scale(1.05);
     border: solid 0.5px black;
 }
 button{
     width: 20%;
-    padding: 6px;
+    padding: 8px;
     border-radius: 30px;
     margin: 3% 5% 1% 35%;
     border: none;
     color: #FFE181;
     background: #00000054;
     cursor: pointer;
+    transform:translateY(50px) scale(1.2) 1s;
     transform: transform 1s;
     box-shadow: 2px 2px 7px rgba(213, 211, 71, 0.142);
 }
+
 button:hover{
-    box-shadow: 2px 2px 11px rgba(213, 211, 71, 0.142);
+    box-shadow: 2px 2px 11px rgba(213, 71, 71, 0.142);
     transform: scale(1);
     background: #0000002b;
+
+}
+button:focus{
+    transform: scale(1.06);
+    background: rgba(0, 0, 0, 0.169);
+    box-shadow: 2px 2px 11px rgba(68, 67, 12, 0.142);
+}
+
+
+@media  ( max-width: 530px ) {
+ 
+    button{
+        width: 30%;
+        padding: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .container-pai{
+        width: 100%;
+        height: auto;
+        margin-top: 90px;
+    }
+
+    .input-{
+        width: 95%;
+        height: 6%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 30px;
+        padding: 16px;    
+    }
+    .logo {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        height: auto;
+        width: 68%;
+    }
+    header{
+        height: 70px;
+       
+    }
 
 }
 /* fotter */
